@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator </title>
+</head>
+<body>
+<div>
+    <form>
+<div>
+    <input type="text" placeholder="input text" id="text"/>
+    <br>
+    <input type="button" value="clear" onclick="calculator.clear()"/>
+</div>
+
+<div id="view">
+
+</div>
+
+<dive>
+    <input value="7" type="button" onclick="calculator.write(this.value)"/>
+    <input value="8" type="button" onclick="calculator.write(this.value)"/>
+    <input value="9" type="button" onclick="calculator.write(this.value)"/>
+</dive>
+
+<dive>
+    <input value="4" type="button" onclick="calculator.write(this.value)"/>
+    <input value="5" class="CalCutton"  type="button" onclick="Calculator.WriteText(this)" type="button onclick="calculator.write(this.value)""/>
+    <input value="6" class="CalCutton"  type="button" onclick="Calculator.WriteText(this)" type="button" onclick="calculator.write(this.value)"/>
+</dive>
+
+<div>
+    <input value="1" type="button" onclick="calculator.write(this.value)"/>
+                    <input value="2" type="button" onclick="calculator.write(this.value)"/>
+                    <input value="3" type="button" onclick="calculator.write(this.value)"/>
+</div>
+
+<div>
+    <input value="+" type="button" onclick="calculator.operatorClick(this.value)"/>
+    <input value="-" type="button" onclick="calculator.operatorClick(this.value)"/>
+    <input value="*" type="button" onclick="calculator.operatorClick(this.value)"/>
+    <input value="/" type="button" onclick="calculator.operatorClick(this.value)"/>
+</div>
+
+<div>
+    <input value="=" type="button" onclick="calculator.calculation()"/>
+</div>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
